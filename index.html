@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Synpas: The first instant-connect mobile provider. Global data, zero friction.">
+    <title>Synpas | Global Data. Zero Friction.</title>
+    
+    <link rel="apple-touch-icon" href="favicon.svg">
+    
+    <!-- Social Share Previews -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://synpas.com/">
+    <meta property="og:title" content="Synpas | Global Data. Zero Friction.">
+    <meta property="og:description" content="The first instant-connect mobile provider. No apps to download. No accounts to create. Just scan and roam.">
+    <meta property="og:image" content="https://synpas.com/og-image.png">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Synpas | Global Data. Zero Friction.">
+    <meta name="twitter:description" content="The first instant-connect mobile provider. No apps to download. No accounts to create.">
+    <meta name="twitter:image" content="https://synpas.com/og-image.png">
+    
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Phosphor Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/@phosphor-icons/web/src/regular.css" />
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/@phosphor-icons/web/src/fill.css" />
+    
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-KNNVFLQC');</script>
+    <!-- End Google Tag Manager -->
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+</head>
+<body>
+
+    <!-- Background Elements -->
+    <div class="background-mesh"></div>
+    <div class="noise-overlay"></div>
+
+    <!-- Navigation (Non-sticky) -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">Synpas<span class="dot">.</span></a>
+            
+            <div class="nav-right">
+                <button id="theme-toggle" aria-label="Toggle Dark Mode" class="icon-btn">
+                    <i class="ph ph-moon"></i>
+                </button>
+                <!-- This button now smooth scrolls to the form -->
+                <button onclick="window.location.href='https://app.synpas.com'" class="btn btn-primary">Get Early Access</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero fade-in-up">
+        <div class="container hero-content">
+            <div class="badge-wrapper">
+                <span class="badge"><span class="pulse"></span>Private Beta 1.0</span>
+            </div>
+            <h1>Global Data.<br><span class="text-gradient">Zero Friction.</span></h1>
+            <p class="subtitle">
+                The first instant-connect mobile provider. No apps to download. No accounts to create. 
+                Just scan, install, and roam in 180+ countries.
+            </p>
+            
+            <div class="hero-actions">
+                <button onclick="scrollToWaitlist()" class="btn btn-primary btn-large">
+                    Join the Waitlist <i class="ph ph-arrow-right"></i>
+                </button>
+                <p class="small-text">Launching Q1 2025. Limited spots available.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Marquee / Social Proof -->
+    <div class="marquee-container fade-in-up delay-1">
+        <div class="marquee-content">
+            <span>Powered by Premium Networks &bull;</span>
+            <span>AT&T &bull;</span>
+            <span>Vodafone &bull;</span>
+            <span>Telefónica &bull;</span>
+            <span>Orange &bull;</span>
+            <span>T-Mobile &bull;</span>
+            <span>Verizon &bull;</span>
+            <span>Jio &bull;</span>
+            <span>Powered by Premium Networks &bull;</span>
+            <span>AT&T &bull;</span>
+            <span>Vodafone &bull;</span>
+            <span>Telefónica &bull;</span>
+            <span>Orange &bull;</span>
+            <span>T-Mobile &bull;</span>
+        </div>
+    </div>
+
+    <!-- Features Grid (Fixed Bento Layout) -->
+    <section class="features">
+        <div class="container">
+            <div class="section-header fade-in-up">
+                <h2>The Operating System for Travel.</h2>
+                <p>We stripped away the complexity of telecom to focus on what matters: connection.</p>
+            </div>
+
+            <!-- Strict Grid Layout -->
+            <div class="bento-grid">
+                
+                <!-- Area A: App Clip -->
+                <div class="card card-a fade-in-up">
+                    <div class="card-icon"><i class="ph-fill ph-lightning"></i></div>
+                    <div class="card-text">
+                        <h3>Bypass the App Store.</h3>
+                        <p>Why download a 50MB app for a 5-day trip? Use our App Clip to buy data in seconds directly from your camera or a link.</p>
+                    </div>
+                    <div class="card-visual visual-appclip">
+                        <div class="phone-mockup">
+                            <div class="notch"></div>
+                            <div class="screen">
+                                <div class="app-clip-banner">
+                                    <div class="icon-sq"></div>
+                                    <div class="lines">
+                                        <div class="line sm"></div>
+                                        <div class="line lg"></div>
+                                    </div>
+                                    <div class="btn-xs">Open</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Area B: Global Coverage -->
+                <div class="card card-b fade-in-up delay-1">
+                    <div class="card-icon"><i class="ph-fill ph-globe-hemisphere-west"></i></div>
+                    <h3>180+ Countries</h3>
+                    <p>One eSIM. The entire world. Auto-switching to the strongest tier-1 signal available.</p>
+                </div>
+
+                <!-- Area C: Security -->
+                <div class="card card-c fade-in-up delay-2">
+                    <div class="card-icon"><i class="ph-fill ph-shield-check"></i></div>
+                    <h3>No Passwords</h3>
+                    <p>Secure, email-based magic links. We don't store passwords because you don't create them.</p>
+                </div>
+
+                <!-- Area D: Infrastructure -->
+                <div class="card card-d fade-in-up">
+                    <div class="card-content-row">
+                        <div class="text-side">
+                            <div class="card-icon"><i class="ph-fill ph-cpu"></i></div>
+                            <h3>Modern Infrastructure</h3>
+                            <p>Built on world class APIs. We aren't just a reseller; we are a full-stack software carrier running on the world's best core networks.</p>
+                        </div>
+                        <div class="visual-side">
+                            <div class="chip-graphic">
+                                <div class="chip-internal"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Steps -->
+    <section class="steps-section">
+        <div class="container">
+            <div class="section-header fade-in-up">
+                <h2>Zero to Connected in 30 Seconds.</h2>
+            </div>
+            <div class="steps-grid">
+                <div class="step-item fade-in-up">
+                    <span class="step-num">01</span>
+                    <h3>Scan or Click</h3>
+                    <p>Scan a QR code or click a link. No searching in the App Store.</p>
+                </div>
+                <div class="step-item fade-in-up delay-1">
+                    <span class="step-num">02</span>
+                    <h3>Pay with Apple Pay</h3>
+                    <p>Select your destination bundle. Double-click to pay. Done.</p>
+                </div>
+                <div class="step-item fade-in-up delay-2">
+                    <span class="step-num">03</span>
+                    <h3>Instantly Active</h3>
+                    <p> The eSIM installs automatically. You are connected before you leave the airport.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Waitlist Section (Target for Scroll) -->
+    <section id="waitlist-section" class="waitlist-section">
+        <div class="container">
+            <div class="waitlist-box fade-in-up">
+                <div class="waitlist-content">
+                    <h2>Ready to roam?</h2>
+                    <p>We are opening access in batches. Secure your spot for the launch.</p>
+                    
+                    <form id="airtable-form" class="form-group">
+                        <div class="input-wrapper">
+                            <i class="ph ph-envelope-simple"></i>
+                            <input type="email" id="email" placeholder="name@company.com" required>
+                        </div>
+                        <button type="submit" id="submit-btn" class="btn btn-primary btn-block">
+                            <span class="btn-text">Join Waitlist</span>
+                            <span class="btn-loader"><i class="ph ph-spinner"></i></span>
+                        </button>
+                    </form>
+                    <p id="form-message" class="form-message"></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq">
+        <div class="container">
+            <div class="section-header fade-in-up">
+                <h2>Common Questions</h2>
+            </div>
+            <div class="faq-grid fade-in-up">
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Do I need to remove my current SIM?</span>
+                        <i class="ph ph-caret-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>No. Synpas uses eSIM technology. You can keep your primary number active for calls and texts while using Synpas for data.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>Which devices are supported?</span>
+                        <i class="ph ph-caret-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Most iPhones (XR and newer), Google Pixels, and modern Samsung Galaxy devices support eSIM. If your phone was bought in the last 4 years, it likely works.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>How is this different from standard roaming?</span>
+                        <i class="ph ph-caret-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Price and Control. Carriers charge $10/day. We charge local rates (often 90% cheaper), and you only pay for what you need.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <span class="logo-text">Synpas<span class="dot">.</span></span>
+                    <p>The next generation mobile operator.</p>
+                </div>
+                <div class="footer-nav">
+                    <div class="col">
+                        <h4>Company</h4>
+                        <a href="#">About</a>
+                        <a href="#">Careers</a>
+                        <a href="/blog">Blog</a>
+                    </div>
+                    <div class="col">
+                        <h4>Legal</h4>
+                        <a href="/privacy.html">Privacy Policy</a>
+                        <a href="/terms.html">Terms of Service</a>
+                    </div>
+                    <div class="col">
+                        <h4>Connect</h4>
+                        <a href="mailto:mail@synpas.com">Email</a>
+                        <a href="https://twitter.com" target="_blank">X (Twitter)</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Synpas Limited. All rights reserved.</p>
+                <div class="footer-socials">
+                    <i class="ph ph-twitter-logo"></i>
+                    <i class="ph ph-instagram-logo"></i>
+                    <i class="ph ph-linkedin-logo"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
